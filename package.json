@@ -1,0 +1,52 @@
+{
+  "name": "apps-script-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "glogin": "clasp login",
+    "glogout": "clasp-logout",
+    "gcreate": "clasp create --title om_industries_erp --rootDir ./apps-script",
+    "gclone": "clasp clone 1Nnn9WrLIiTGT__mqoyxQxfNZd9aP0nUpwOJSPMCTq4L9hLQ0DWb51yAQ --rootDir ./apps-script",
+    "gpull": "clasp pull",
+    "gpush": "clasp push",
+    "gstart": "clasp push --watch",
+    "start": "parcel src/index.html --dist-dir ./apps-script",
+    "gbuild": "parcel build src/index.html --dist-dir ./apps-script"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@google/clasp": "^2.4.1",
+    "@parcel/transformer-sass": "^2.6.2",
+    "@types/google-apps-script": "^1.0.53",
+    "parcel": "^2.6.2",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.3",
+    "@mui/material": "^5.8.6",
+    "@mui/x-data-grid": "^6.11.0",
+    "@mui/x-date-pickers": "^6.11.0",
+    "antd": "^5.8.2",
+    "date-fns": "^2.30.0",
+    "lodash": "^4.17.21",
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0",
+    "react-hook-form": "^7.45.2",
+    "react-redux": "^8.1.2",
+    "react-router-dom": "^6.3.0",
+    "redux": "^4.2.1",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.4.2"
+  },
+  "peerDependencies": {
+    "@mui/base": "^5.0.0-alpha.87",
+    "@mui/system": "^5.8.0",
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
+  }
+}
